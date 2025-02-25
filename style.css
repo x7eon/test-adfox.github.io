@@ -2,19 +2,3 @@
   box-sizing: border-box;
 }
 
-.container {
-  width: 100%;
-  display: flex;
-  justify-content: center;  
-  background-color: yellow;
-}
-
-#adfox_174050329047859808 {
-  display: block;
-  width: 100%;
-  block-size: 250px;
-}
-
-#adfox_174050329047859808 div {
-  block-size: 250px;
-}
