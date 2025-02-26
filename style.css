@@ -76,6 +76,8 @@ button:focus {
 }
 
 .banner_top_100x250 {
+  block-size: 250px;
+  width: 100%;
   grid-column: 1/4;
   grid-row: 1/2;
   background-color: rgb(231, 231, 171);
