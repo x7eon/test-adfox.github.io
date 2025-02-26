@@ -34,25 +34,36 @@
       </script>
 
       <h1 class="title">Тест рекламных блоков AdFox</h1>
-      <!--AdFox START-->
-      <!--yandex_adfox.to-->
-      <!--Площадка: test-site / * / *-->
-      <!--Тип баннера: 1x1-->
-      <!--Расположение: верх страницы-->
-      <div id="adfox_174057654278789808"></div>
-      <script>
-        window.yaContextCb.push(() => {
-          Ya.adfoxCode.create({
-            ownerId: 12363315,
-            containerId: "adfox_174057654278789808",
-            params: {
-              pp: "g",
-              ps: "iwyd",
-              p2: "frfe",
-            },
+
+      <div class="pixel_100x250"
+        style="
+          position: absolute;
+          width: 1px;
+          height: 1px;
+          opacity: 0;
+          overflow: hidden;
+        "
+      >
+        <!--AdFox START-->
+        <!--yandex_adfox.to-->
+        <!--Площадка: test-site / * / *-->
+        <!--Тип баннера: 1x1-->
+        <!--Расположение: верх страницы-->
+        <div id="adfox_174057654278789808"></div>
+        <script>
+          window.yaContextCb.push(() => {
+            Ya.adfoxCode.create({
+              ownerId: 12363315,
+              containerId: "adfox_174057654278789808",
+              params: {
+                pp: "g",
+                ps: "iwyd",
+                p2: "frfe",
+              },
+            });
           });
-        });
-      </script>
+        </script>
+      </div>
     </div>
   </body>
 </html>
