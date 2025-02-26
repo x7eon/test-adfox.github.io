@@ -12,58 +12,49 @@
     <script src="https://yandex.ru/ads/system/context.js" async></script>
   </head>
   <body>
-    <div class="layout">
+    <!--AdFox START-->
+    <!--yandex_adfox.to-->
+    <!--Площадка: test-site / * / *-->
+    <!--Тип баннера: 100x250-->
+    <!--Расположение: верх страницы-->
+    <div class="banner_top_100x250" id="adfox_174057578128749808"></div>
+    <script>
+      window.yaContextCb.push(() => {
+        Ya.adfoxCode.create({
+          ownerId: 12363315,
+          containerId: "adfox_174057578128749808",
+          params: {
+            pp: "g",
+            ps: "iwyd",
+            p2: "jjzp",
+          },
+        });
+      });
+    </script>
+    <div class="text-block">
+      <h1 class="title">Тест рекламных блоков AdFox</h1>
+    </div>
+
+    <div class="pixel_100x250">
       <!--AdFox START-->
       <!--yandex_adfox.to-->
       <!--Площадка: test-site / * / *-->
-      <!--Тип баннера: 100x250-->
+      <!--Тип баннера: 1x1-->
       <!--Расположение: верх страницы-->
-      <div class="banner_top_100x250" id="adfox_174057578128749808"></div>
+      <div id="adfox_174057654278789808"></div>
       <script>
         window.yaContextCb.push(() => {
           Ya.adfoxCode.create({
             ownerId: 12363315,
-            containerId: "adfox_174057578128749808",
+            containerId: "adfox_174057654278789808",
             params: {
               pp: "g",
               ps: "iwyd",
-              p2: "jjzp",
+              p2: "frfe",
             },
           });
         });
       </script>
-
-      <h1 class="title">Тест рекламных блоков AdFox</h1>
-
-      <div class="pixel_100x250"
-        style="
-          position: absolute;
-          width: 1px;
-          height: 1px;
-          opacity: 0;
-          overflow: hidden;
-        "
-      >
-        <!--AdFox START-->
-        <!--yandex_adfox.to-->
-        <!--Площадка: test-site / * / *-->
-        <!--Тип баннера: 1x1-->
-        <!--Расположение: верх страницы-->
-        <div id="adfox_174057654278789808"></div>
-        <script>
-          window.yaContextCb.push(() => {
-            Ya.adfoxCode.create({
-              ownerId: 12363315,
-              containerId: "adfox_174057654278789808",
-              params: {
-                pp: "g",
-                ps: "iwyd",
-                p2: "frfe",
-              },
-            });
-          });
-        </script>
-      </div>
     </div>
   </body>
 </html>
