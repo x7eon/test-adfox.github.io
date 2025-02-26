@@ -78,7 +78,9 @@ button:focus {
   background-color: rgb(231, 231, 171);
 }
 
-.pixel_100x250 {
+.pixel_100x250,
+.pixel_100x250_correct,
+.pixel_300x600 {
   position: absolute;
   width: 1px;
   height: 1px;
