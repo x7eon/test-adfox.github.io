@@ -2,7 +2,13 @@
   box-sizing: border-box;
 }
 
-#adfox_17405610670919808 {
+/* #adfox_17405610670919808 {
   block-size: 1px;
   inline-size: 1px;
 }
+
+.layout {
+  display: grid;
+  grid-template-columns: 200px 900px auto;
+  grid-template-rows: 250px auto 150px;
+} */
