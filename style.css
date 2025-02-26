@@ -79,12 +79,23 @@ button:focus {
 }
 
 .pixel_100x250,
-.pixel_100x250_correct,
-.pixel_300x600 {
+.pixel_100x250_correct
+ {
   position: absolute;
   width: 1px;
   height: 1px;
   opacity: 0;
   overflow: hidden;
   background-color: antiquewhite;
+}
+
+.pixel_300x600 {
+
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+    overflow: hidden;
+    background-color: antiquewhite;
+
 }
