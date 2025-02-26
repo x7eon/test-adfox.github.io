@@ -12,26 +12,46 @@
     <script src="https://yandex.ru/ads/system/context.js" async></script>
   </head>
   <body>
-    <h1>Мой сайт</h1>
-    <img src="tiger.jpg" style="block-size: 500px" />
-
-    <!--AdFox START-->
-    <!--yandex_adfox.to-->
-    <!--Площадка: test-site / все страницы / 300x600 pixel-->
-    <!--Категория: <не задана>-->
-    <!--Тип баннера: 1x1-->
-    <div id="adfox_174057452374139808"></div>
-    <script>
-      window.yaContextCb.push(() => {
-        Ya.adfoxCode.create({
-          ownerId: 12363315,
-          containerId: "adfox_174057452374139808",
-          params: {
-            p1: "dghvs",
-            p2: "frfe",
-          },
+    <div class="layout">
+      <!--AdFox START-->
+      <!--yandex_adfox.to-->
+      <!--Площадка: test-site / * / *-->
+      <!--Тип баннера: 100x250-->
+      <!--Расположение: верх страницы-->
+      <div class="banner_top_100x250" id="adfox_174057578128749808"></div>
+      <script>
+        window.yaContextCb.push(() => {
+          Ya.adfoxCode.create({
+            ownerId: 12363315,
+            containerId: "adfox_174057578128749808",
+            params: {
+              pp: "g",
+              ps: "iwyd",
+              p2: "jjzp",
+            },
+          });
         });
-      });
-    </script>
+      </script>
+
+      <h1 class="title">Тест рекламных блоков AdFox</h1>
+      <!--AdFox START-->
+      <!--yandex_adfox.to-->
+      <!--Площадка: test-site / все страницы / 300x600 pixel-->
+      <!--Категория: <не задана>-->
+      <!--Тип баннера: 1x1-->
+      <div class="pixel_100x250" id="adfox_174057452374139808"></div>
+      <script>
+        window.yaContextCb.push(() => {
+          Ya.adfoxCode.create({
+            ownerId: 12363315,
+            containerId: "adfox_174057452374139808",
+            params: {
+              p1: "dghvs",
+              p2: "frfe",
+            },
+          });
+        });
+      </script>
+    </div>
   </body>
 </html>
